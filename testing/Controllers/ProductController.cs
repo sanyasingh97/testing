@@ -17,8 +17,8 @@ namespace MVCTesting.Controllers
         }
         public IActionResult Index()
         {
-            bool result = productstore.FindProduct(100);
-            return View(result);
+            bool results = productstore.FindProduct(100);
+            return View(results);
         }
         public ViewResult ProductPage()
         {
